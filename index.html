@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>Quran Advanced Search</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script src="jquery.min.js"></script>
+
+		<link href="jquery.dataTables.min.css" rel="stylesheet">
+		<script src="jquery.dataTables.min.js"></script>
+
+		<link href="chosen/chosen.min.css" rel="stylesheet">
+		<script src="chosen/chosen.jquery.min.js"></script>
+
+		<script src="jquery.numeric.min.js"></script>
+
+		<script src="quran-data.js"></script>
+		<script src="main.js"></script>
+
+		    <!-- Bootstrap Core CSS -->
+		    <link href="sb-admin/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<link href="main.css" rel="stylesheet">
+	</head>
+	<body class="index">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<!-- Banner -->
+				<section id="banner">
+
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+							<h2>Advanced Quran Search</h2>
+						</header>
+						<footer>
+							<ul class="buttons vertical">
+								<li>
+								<a id='init' href="#search-q" class="button scrolly">Initialize search for
+								<input id='qNum' size=3 value=3 class='numeric'> words</a> 
+								</li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+						<section class="container">
+									<header>
+										<h2>Search Parameters</h2>
+									</header>
+						</section>
+					<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div id='search-q' class="row 50%" style="display: none;">
+								<div class="12u 12u(narrower)">
+
+									<div id='s'>
+									</div>
+									<footer>
+										<ul class="buttons">
+											<li id='search-button-pos'><a id='search' href="#results-pos" class="button scrolly">Search
+											with limit <input id='limit' value=1000 size=5 class='numeric'></input></a>
+											</li>
+										</ul>
+									</footer>
+
+								</div>
+							</div>
+						</section>
+
+					<!-- Two -->
+					<!-- Three -->
+						<section id="results-pos" class="wrapper style3 container special">
+
+							<header class="major">
+								<h2>Search Results</h2>
+							</header>
+										<div id='r'>
+										</div>
+
+
+						</section>
+
+				</article>
+
+			<!-- CTA -->
+			<!-- Footer -->
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

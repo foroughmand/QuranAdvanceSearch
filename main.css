@@ -1,0 +1,27 @@
+select, input {
+	border: 1px;
+	color: black;
+	height: 2em;
+	margin: 2pt;
+	text-align: center;
+}
+
+.root-selector, .root-selector option {
+	width: 210px;
+	max-height: 240px;
+	direction: rtl;
+	font-family: Tahoma;
+}
+
+#r table tbody tr {
+direction: rtl;
+	   font-family: tahoma;
+}
+
+.chosen-search input {
+color: black;
+}
+
+.table thead {
+	font-weight: bold;
+}
